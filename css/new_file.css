@@ -49,7 +49,10 @@ a {
 	margin: auto;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a8970bf87748efbd45d9aaa22ceb2744052f1298
 .col-md-3 a p img {
 	padding-top: 34px;
 }
@@ -60,13 +63,17 @@ a {
 }
 
 .col-md-5 .sou {
+<<<<<<< HEAD
 	height: 27px;
 	margin-left: 50px;
+=======
+>>>>>>> a8970bf87748efbd45d9aaa22ceb2744052f1298
 	margin-top: 55px;
 	width: 360px;
 	border: 1px solid #cccccc;
 	border-radius: 5px 0 0 5px;
 }
+<<<<<<< HEAD
 .btn{padding: 4px 11px; }
 .btn-search{ background: #f8a7c6; margin-left: -4px; margin-top: -4px; border-radius: 0 5px 5px 0;height: 28px;}
 	.btn-search span {
@@ -75,6 +82,16 @@ a {
    
 }    
 .hots{margin-left: 65px;}
+=======
+
+.col-md-5 #anniu {
+	width: 30px;
+	margin-left: -5px;
+	border: 1px solid #cccccc;
+	border-radius: 0 5px 5px 0;
+}
+
+>>>>>>> a8970bf87748efbd45d9aaa22ceb2744052f1298
 .hots a {
 	color: #000000;
 }
@@ -129,7 +146,11 @@ a {
 	background: url(../img/bg-top.png) repeat-x;
 }
 
+<<<<<<< HEAD
 .tp8 a {
+=======
+.tp5 a {
+>>>>>>> a8970bf87748efbd45d9aaa22ceb2744052f1298
 	text-decoration: none;
 	width: 140px;
 	/*height: 400px;*/

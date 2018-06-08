@@ -21,4 +21,10 @@ $(".back-top ").click(function() {
 		scrollTop: 0
 	}, 300);
 	return false;
+});
+$(".tp5").mousemove(function(){
+	$(".dao").css("display","block")
+});
+$(".tp5").mouseout(function(){
+	$(".dao").css("display","none")
 })

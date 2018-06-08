@@ -49,7 +49,6 @@ a {
 	margin: auto;
 }
 
-
 .col-md-3 a p img {
 	padding-top: 34px;
 }
@@ -70,11 +69,14 @@ a {
 .btn{padding: 4px 11px; }
 .btn-search{ background: #f8a7c6; margin-left: -4px; margin-top: -4px; border-radius: 0 5px 5px 0;height: 28px;}
 	.btn-search span {
-    background: #f8a7c6;
+   
     border: none;
    
 }    
-.hots{margin-left: 65px;}
+.hots {
+	margin-left: 65px;
+}
+
 .hots a {
 	color: #000000;
 }
@@ -122,14 +124,176 @@ a {
 	display: block;
 }
 
-.tp4 img {
-	width: 100%;
-	height: 350px;
-	padding-top: 9px;
+.tp4 {
 	background: url(../img/bg-top.png) repeat-x;
+	padding-top: 40px;
+	margin-top: 31px;
 }
 
-.tp8 a {
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	width: 800px;
+}
+
+.passport-wrap {
+	margin: 50px auto;
+	width: 1100px;
+	border: solid 1px #ffe2e2;
+	border-top: solid 2px #ea6594;
+}
+
+.inside-wrap {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.signin-page-wrap {
+	background: url(../img/placeholder.gif) no-repeat 0 center;
+}
+
+.signupin-content {}
+
+.signin {
+	border-top: none;
+	border-bottom: none;
+	margin-bottom: 0;
+	border-right: none;
+	border-left: solid 1px #ffe2e2;
+	padding-bottom: 10px;
+}
+
+.signin {
+	width: 340px;
+	height: 396px;
+	border-left: 1px solid #ffe2e2;
+	float: right;
+}
+
+.sign-title {
+	border-bottom: none;
+	padding-left: 0;
+	height: auto;
+	height: 44px;
+	/*border-bottom: 1px solid #ccc;*/
+	padding-left: 20px;
+}
+
+.sign-title h2 {
+	color: #000;
+	font-size: 14px;
+	margin: 0 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: dashed 1px #ffe2e2;
+}
+
+#dom {
+	width: 260px;
+	background: url(../img/x-input-bg.jpg) repeat-x;
+}
+
+#dom1 {
+	width: 260px;
+	background: url(../img/x-input-bg.jpg) repeat-x;
+}
+
+#dom_el_e55cbb3 {
+	width: 80px;
+	background: url(../img/x-input-bg.jpg) repeat-x;
+}
+
+.signupin-content .form-item {
+	width: 400px;
+	height: 40px;
+	/* padding-top: 30px;*/
+	padding-left: 40px;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.upl ul {
+	padding-top: 15px;
+}
+
+.signupin-content .form-item-normal {
+	padding-left: 40px;
+	/* padding-bottom: 10px;*/
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.trust-signin {
+	padding: 5px 5px;
+	margin: 0px 20px;
+	border-top: dashed 1px #ffe2e2;
+	overflow: hidden;
+}
+
+.trust-signin a {
+	padding-left: 10px;
+	font-size: 10px;
+}
+
+.signupin-content a {
+	color: #999999;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a {
+	color: #0563c3;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	overflow: hidden;
+}
+
+.signin .need-signup h3 {
+	font-size: 13px;
+	color: #4b4b4b;
+}
+
+.signin .need-signup h3 {
+	padding-top: 5px;
+	padding-left: 30px;
+	float: left;
+	color: #e73e31;
+	font: 14px/25px 'Microsoft Yahei';
+}
+
+.signin .need-signup .btn-simple {
+	float: right;
+}
+
+.btn {
+	background: #f53998;
+	color: #FFFFFF;
+}
+
+.need-signup .btn-simple {
+	background: #f53998;
+	margin-top: 20px;
+	margin-right: 50px;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: -1px 1px 1px 1px #b2acb0;
+	letter-spacing: 2px;
+}
+
+.need-signup .btn-simple span {
+	color: #FFFFFF;
+}
+
+.tp5 .shang {
 	text-decoration: none;
 	width: 140px;
 	/*height: 400px;*/
@@ -142,6 +306,7 @@ a {
 }
 
 .dao {
+	display: none;
 	position: absolute;
 	width: 140px;
 	height: 340px;
@@ -205,231 +370,8 @@ a {
 	padding-top: 10px;
 }
 
-.zuo a:first-child {
-	padding-left: 25px;
-}
-
-.zuo a:last-child {
-	padding-left: 40px;
-}
-
-.pian {
-	width: 100%;
-	height: 100%;
-	background: pink;
-	overflow: hidden;
-}
-
-.bai {
-	width: 90%;
-	height: 100%;
-	margin: auto;
-	background: #FFFFFF;
-	overflow: hidden;
-}
-
-.pian .biao {
-	width: 1000px;
-	height: 62px;
-	background: #66AFE9;
-	margin: 15px auto;
-}
-
-.pian .biao a:nth-child(2) {
-	padding-left: 16px;
-}
-
-.pian .biao a:nth-child(3) {
-	padding-left: 16px;
-}
-
-.pian .biao a:nth-child(4) {
-	padding-left: 16px;
-}
-
-.fit {
-	width: 1000px;
-	height: 180px;
-	margin: auto;
-	background: #f9e9ea;
-}
-
-.fit h3 {
-	height: 20px;
-	line-height: 20px;
-	font-size: 14px;
-	font-weight: 100;
-	padding-left: 10px;
-	color: #999;
-}
-
-.fit .you a img {
-	padding-left: 18px;
-	padding-top: 8px;
-}
-
-.xin {
-	width: 1000px;
-	margin: auto;
-}
-
-.xin img {
-	padding-top: 20px;
-}
-
-.hot a {
-	float: left;
-}
-
-.hot a:nth-child(2) {
-	padding-left: 20px;
-}
-
-.hot a:nth-child(3) {
-	padding-left: 20px;
-}
-
-.hot a:nth-child(4) {
-	padding-left: 20px;
-}
-
-.hot a:nth-child(5) {
-	padding-left: 20px;
-}
-
-.mei {
-	width: 1000px;
-	margin: auto;
-	overflow: hidden;
-}
-
-.mei ul li {
-	width: 235px;
-	height: 380px;
-	float: left;
-	margin-right: 20px;
-}
-
-.mei ul li:nth-child(4) {
-	margin-right: 0;
-}
-
-.mei ul li:last-child {
-	margin-right: 0;
-}
-
-.mei ul li a {
-	text-decoration: none;
-}
-
-.mei ul li a img {
-	padding-top: 10px;
-	width: 235px;
-	height: 300px;
-}
-
-.mei ul li a p {
-	color: #000000;
-	font-size: 12px;
-	margin-top: 5px;
-}
-
-.mei .market-price {
-	color: #CCCCCC;
-}
-
-.mei .market-price span {
-	color: #CCCCCC;
-}
-
-.mei .selling-price {
-	color: hotpink;
-	text-decoration: none;
-	margin-left: 20px;
-}
-
-.mai {
-	width: 1000px;
-	margin: auto;
-	overflow: hidden;
-}
-
-.mai img {
-	margin-top: 20px;
-}
-
-#roll-Listener ul li {
-	width: 100px;
-	height: 40px;
-	background: #000000;
-	line-height: 40px;
-	text-align: center;
-	margin-top: 1px;
-}
-
-#roll-Listener ul li a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-#roll-Listener ul li a:hover {
-	color: palevioletred;
-}
-
-#roll-Listener ul p {
-	background: url(../img/bg-top.png) repeat-x;
-	width: 100px;
-	height: 10px;
-	margin-bottom: 0;
-}
-
-#roll-Listener ul .xia {
-	background: url(../img/bg-bot.png) repeat-x;
-	width: 100px;
-	height: 10px;
-	margin-top: 0;
-}
-
-.di a {
-	float: left;
-}
-
-.di a:nth-child(2) {
-	padding-left: 20px;
-}
-
-.cai {
-	width: 1000px;
-	margin: auto;
-}
-
-.yong {
-	width: 1000px;
-	margin: auto;
-}
-
-.yong .yonghu {
-	width: 482px;
-	float: left;
-}
-
-.yong .yonghu .chi ul {
-	margin-top: 20px;
-	margin-bottom: 60px;
-}
-
-.yong .yonghu .chi ul li {
-	border-bottom: 1px dashed #CCCCCC;
-	margin-top: 10px;
-}
-
-.yong .yonghu .chi ul li a {
-	color: #000000;
-	font-size: 12px;
-	text-decoration: none;
-}
-
 .xiahua {
+	padding-top: 50px;
 	border-bottom: 5px solid palevioletred;
 }
 
